@@ -1,17 +1,17 @@
 public class SkillDemo {
 
-	int sum = 0;
-	int n = 0;
+	float sum = 0;
+	float n = 0;
 
     public SkillDemo(int[] arr) {
     }
 
-	public int average(int[] intArray) {
+	public float average(int[] intArray) {
         for (int i = 0; i < intArray.length; i++) {
             sum = sum + intArray[i];
             n++;
         }
-        int average = sum/n;
+        float average = sum/n;
         return average;
     }
 }
